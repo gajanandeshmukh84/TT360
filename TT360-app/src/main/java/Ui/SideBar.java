@@ -45,6 +45,8 @@ public class SideBar extends JPanel {
         button.setFont(new Font("Segoe UI", Font.BOLD, 14));
         button.setFocusPainted(false);
         button.setAlignmentX(Component.CENTER_ALIGNMENT);
+        button.setOpaque(true);
+        button.setBorderPainted(false);
 
         button.addActionListener(e -> action.accept(panel));
         return button;

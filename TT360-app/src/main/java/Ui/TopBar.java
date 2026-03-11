@@ -9,5 +9,9 @@ public class TopBar extends JPanel {
         setSize(new Dimension(0,60));
         setBackground(new Color(229, 233, 255));
         setBorder(BorderFactory.createEmptyBorder(10,20,10,20));
+
+        JLabel label = new JLabel("TT360 Dashboard");
+        label.setFont(new Font("Segeo UI", Font.BOLD, 16));
+        add(label);
     }
 }
